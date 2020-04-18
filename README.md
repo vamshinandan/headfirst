@@ -1,1 +1,3 @@
 # headfirst
+
+My practice exercises from Head First Golang Practice examples....
