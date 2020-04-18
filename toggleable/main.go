@@ -23,6 +23,8 @@ func main() {
 	s := Switch("off")
 	s.toggle()
 	s.toggle()
+	// cannot assign a value to interface because it implements the pointer
+	// value of switch type
 	var t Toggleable = &s
 	t.toggle()
 	t.toggle()
